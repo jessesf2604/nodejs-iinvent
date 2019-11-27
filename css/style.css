@@ -1,0 +1,43 @@
+h1{
+  margin: auto !important;
+}
+.bg-orange{
+  background-color: rgb(7, 95, 95);
+  color:black !important;
+}
+
+.form-orange{
+  margin: auto;
+}
+
+.form-orange:focus{
+  border-color: rgb(7, 95, 95);
+  box-shadow: 0 0 0 0.2rem rgba(255, 166, 0, 0.377);
+}
+
+nav a{
+  text-decoration: none !important;
+  color: black !important;
+  font-size: 1.3rem;
+}
+
+nav a:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.select{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-card{
+  border: 4px solid rgb(7, 95, 95);
+  border-radius: 25px;
+}
+
+.numero{
+  font-size: 5rem;
+}
+
+.main-text{
+  font-size: 2.5rem;
+}
