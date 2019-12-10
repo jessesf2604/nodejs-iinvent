@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta push charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="../js/validation.js"></script>
+</head>
+<body>
+    <header class="container-fluid bg-orange">
+        <div class="row p-3 text-center shadow">
+            <div class="col">
+                <h1 class="text-center">iInvent</h1> 
+            </div>
+        </div>
+        <nav class="row text-center">
+          <a href="../usuarios/cadastrar.html" class="col-md-3 p-4">Cadastrar usuário</a>
+          <a href="../setores/cadastrar.html" class="col-md-3 p-4">Cadastrar setor</a>
+          <a href="../estados/cadastrar.html" class="col-md-3 p-4 select">Cadastrar estado</a>
+          <a href="" class="col-md-3 p-4">Cadastrar categoria</a>  
+        </nav>
+    </header>
+    <div class="container mt-5 mb-5">
+        <div class="text-center my-5">
+            <h2>Cadastro de setor</h2>
+            <h6>Preencha o formulário abaixo</h6>
+        </div>
+        
+        <div>
+          <input type="checkbox" id="consumo" name="consumo" unchecked>
+          <label for="consumo">Bens de consumo</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="movel" name="movel" unchecked>
+          <label for="movel">Bens móveis</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="imovel" name="imovel" unchecked>
+          <label for="imovel">Bens imóveis</label>
+        </div>
+
+        <div>
+          <input type="checkbox" id="veiculo" name="veiculo" unchecked>
+          <label for="veiculo">Veículo</label>
+        </div>
+
+        <button class="btn bg-orange" type="submit">Cadastrar um novo setor</button>
+    </div>
+    
+    <footer class="container-fluid p-4 bg-orange text-center">iInvent - Nenhum direito reservado</footer>
+</body>
+</html>
