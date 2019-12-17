@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta push charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,24 +9,6 @@
     <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="../js/validation.js"></script>
 </head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
-
 <body>
     <header class="container-fluid bg-orange">
         <div class="row p-3 text-center shadow">
@@ -41,47 +23,24 @@ tr:nth-child(even) {
           <a href="../setores/cadastrar.html" class="col-md-3 p-4">Cadastrar setor</a>  
         </nav>
     </header>
+    <div class="container mt-5 mb-5">
+        <div class="text-center my-5">
+            <h2>Cadastro de categoria</h2>
+            <h6>Preencha o formulário abaixo</h6>
+        </div>
+        
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">Tipo de Bem</label>
+          <input type="text" class="form-control form-orange" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Por favor, informe o tipo de Bem que você possui.
+          </div>
+        </div>
+       
+      <button class="btn bg-orange" type="submit">Cadastrar um novo setor</button>
 
-<h2>Tabela dos setores</h2>
-
-<table>
-  <tr>
-    <th>Tipo do Bem</th>
-    <th>Estado do Bem</th>
-    <th>Valor atualizado</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
+    </div>
+    
     <footer class="container-fluid p-4 bg-orange text-center">iInvent - Nenhum direito reservado</footer>
 </body>
 </html>
