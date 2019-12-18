@@ -3,7 +3,7 @@ h1{
 }
 .bg-orange{
   background-color: rgb(7, 95, 95);
-  color:black !important;
+  color:rgb(238, 225, 225) !important;
 }
 
 .form-orange{
@@ -17,7 +17,7 @@ h1{
 
 nav a{
   text-decoration: none !important;
-  color: black !important;
+  color: rgb(250, 234, 234) !important;
   font-size: 1.3rem;
 }
 
